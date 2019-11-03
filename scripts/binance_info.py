@@ -50,7 +50,7 @@ def parse_categories_init(url):
 def db_connect(_url,_host,_user,_pwd,_db,_table):
     db=pymysql.connect(host=_host,
                     user=_user,
-                    passwd="youngjae1!a",
+                    passwd="",
                     db=_db,
                     charset='utf8')
     if _table=="news":

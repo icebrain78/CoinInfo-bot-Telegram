@@ -4,7 +4,7 @@ import telegram
 from parsel import Selector
 import time
 
-my_token='537097274:AAGrw2EpxvEfVIqNp2em9lFKYFpMFply4D8'
+my_token=''
 bot=telegram.Bot(token=my_token)
 BASE_DIR=os.path.dirname(os.path.abspath(__file__))
 HEADERS={

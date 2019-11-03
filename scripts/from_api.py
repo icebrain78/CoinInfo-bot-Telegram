@@ -10,7 +10,7 @@ import time
 #    l_file=open(lockfile,"w+")
 #    l_file.write("1")
 #    l_flie.close()
-my_token='537097274:AAGrw2EpxvEfVIqNp2em9lFKYFpMFply4D8'
+my_token=''
 bot=telegram.Bot(token = my_token)
 BASE_DIR=os.path.dirname(os.path.abspath(__file__))
 if not os.path.exists("amazonenaws_latest.txt"):

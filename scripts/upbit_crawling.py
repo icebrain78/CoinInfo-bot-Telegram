@@ -3,7 +3,7 @@ from parsel import Selector
 import telegram
 import time
 import os
-my_token='537097274:AAGrw2EpxvEfVIqNp2em9lFKYFpMFply4D8'
+my_token=''
 bot=telegram.Bot(token = my_token)
 #print(bot.getUpdates())
 #chat_id=bot.getUpdates()[-1].message.chat.id
